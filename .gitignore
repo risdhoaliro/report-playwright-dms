@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Playwright 
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Allure Report
+/allure-results/
+/allure-report/
+.allure-history/
+
+# TypeScript
+dist/
+build/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local 
