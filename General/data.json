@@ -1,0 +1,88 @@
+{
+  "testData": {
+    "validSearchTerms": ["product1", "product2", "product3"],
+    "invalidSearchTerms": ["xxx", "zzz", "###"]
+  },
+  "LoginData": {
+    "emptyFieldErrorMessage": {
+      "username": "Username field is required",
+      "password": "Password field is required"
+    },
+    "errorMessageLogin": "Wrong password or username, please check again.",
+    "successMessageLogin": "Successfully logged in.",
+    "urlPatterns": {
+      "loginPage": "login",
+      "adminDashboard": "dashboard"
+    },
+    "retryConfig": {
+      "maxRetries": 3,
+      "messages": {
+        "retryLoading": "Retry loading attempt {count} of {max}",
+        "failedRedirect": "Failed to redirect after {max} attempts",
+        "failedLogin": "Failed login attempt {count}. Retrying..."
+      }
+    },
+    "validDataSuperAdmin": {
+      "userName": "qaautomationris",
+      "password": "admin123"
+    },
+    "invalidData": {
+      "userName": "invalid_user",
+      "password": "invalid_password"
+    },
+    "emptyUserData": {
+      "userName": "",
+      "password": "password123"
+    },
+    "emptyPasswordData": {
+      "userName": "username123",
+      "password": ""
+    },
+    "wrongPasswordData": {
+      "userName": "admin_user",
+      "password": "wrong_password"
+    },
+    "wrongUserWrongPass": {
+      "userName": "wrong_user",
+      "password": "wrong_password"
+    },
+    "wrongMitraPasswordData": {
+      "userName": "mitra_user",
+      "password": "wrong_password"
+    },
+    "testLabels": {
+      "fillCredentials": "Fill credentials",
+      "verifyResults": "Verify results",
+      "successLogin": "Login successful"
+    },
+    "emptyValuePlaceholder": "[Empty]",
+    "passwordMask": "********"
+  },
+  "ForgotPasswordData": {
+    "urlPatterns": {
+      "forgotPasswordPage": "forgot-password",
+      "loginPage": "login"
+    },
+    "validEmail": "risdhoaliro@gmail.com",
+    "invalidEmail": "invalid@notregistered.com",
+    "invalidFormatEmail": "notavalidemail",
+    "emptyEmail": "",
+    "fixedEmailForTesting": {
+      "emailAddress": "c19b34a6-ad57-49bb-b446-30a6d2ddf798@mailslurp.biz",
+      "inboxId": "c19b34a6-ad57-49bb-b446-30a6d2ddf798"
+    },
+    "successMessage": "The password reset link has been sent.",
+    "errorMessages": {
+      "invalidEmail": "data not found",
+      "invalidFormat": "Please include an '@' in the email address",
+      "emptyEmail": "email is required"
+    },
+    "retryConfig": {
+      "maxRetries": 3,
+      "messages": {
+        "retryLoading": "Retry loading forgot password page {count}/{max}",
+        "failedRedirect": "Failed to load forgot password page after {max} attempts"
+      }
+    }
+  }
+} 
