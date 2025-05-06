@@ -1,0 +1,50 @@
+{
+  "name": "automation-drivermanagement-synapsis",
+  "version": "1.0.0",
+  "description": "Automation tests for Driver Management Synapsis",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chrome": "npx playwright test --project=\"Driver Monitoring System In Chrome\"",
+    "test:firefox": "npx playwright test --project=\"Driver Monitoring System In Firefox\"",
+    "test:safari": "npx playwright test --project=\"Driver Monitoring System In Safari\"",
+    "test:login": "npx playwright test login.test.ts",
+    "allure:history": "npx ts-node ./utils/setupAllureHistory.ts",
+    "test:login:allure": "npm run allure:history && npx playwright test login.test.ts --reporter=allure-playwright,line",
+    "test:allure": "npm run allure:history && npx playwright test --reporter=allure-playwright,line",
+    "test:headless": "npx playwright test --headed=false",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "allure:setup": "npx ts-node ./utils/allure-setup.ts",
+    "report:allure": "npm run allure:setup && allure generate ./allure-results --clean && allure open ./allure-report",
+    "report:allure:trends": "npm run allure:setup && allure generate ./allure-results --clean && npx ts-node ./utils/copyTrends.ts && allure open ./allure-report",
+    "report:allure:full": "npm run allure:setup && allure generate ./allure-results --clean && allure open ./allure-report -p 9999",
+    "report:clean": "rimraf ./allure-results ./allure-report",
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig.json",
+    "debug": "npx playwright test --debug",
+    "install:browsers": "npx playwright install",
+    "install:allure": "npm i -g allure-commandline",
+    "codegen": "npx playwright codegen http://localhost:3001/login"
+  },
+  "keywords": [
+    "automation",
+    "testing",
+    "playwright",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.10.0",
+    "allure-playwright": "^2.12.0",
+    "mailslurp-client": "^15.21.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  }
+}
