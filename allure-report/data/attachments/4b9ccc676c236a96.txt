@@ -1,0 +1,1 @@
+Hai QA Automation , berikut url untuk mereset password Anda: https://dev-drivermanagement.synapsis.id/reset-password?token=MWNhM2ZlMDRjOTAyNmI3NGQ0NzRkZjAyZGRmODhiZGU=

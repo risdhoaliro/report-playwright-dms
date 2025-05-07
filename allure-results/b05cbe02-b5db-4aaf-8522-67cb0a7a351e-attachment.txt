@@ -1,0 +1,5 @@
+Navigating to login page first
+Found 'Forgot password?' link on login page
+Clicked on 'Forgot password?' link
+Successfully navigated to forgot password page
+[Test Suite] Forgot Password Test Suite completed.

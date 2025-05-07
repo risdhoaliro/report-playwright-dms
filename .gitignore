@@ -7,10 +7,10 @@ package-lock.json
 /playwright-report/
 /playwright/.cache/
 
-# Allure Report
-/allure-results/
-/allure-report/
-.allure-history/
+# # Allure Report
+# /allure-results/
+# /allure-report/
+# .allure-history/
 
 # TypeScript
 dist/

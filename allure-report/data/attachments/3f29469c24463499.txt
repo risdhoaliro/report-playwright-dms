@@ -1,0 +1,12 @@
+Navigating to login page first
+Found 'Forgot password?' link on login page
+Clicked on 'Forgot password?' link
+Successfully navigated to forgot password page
+[Test] Using unregistered email: invalid@notregistered.com
+Expecting error message for invalid email
+Waiting for error toast to appear...
+Error message from toast: "data not found"
+[Test] Waiting for server to process password reset request (unregistered email)...
+[Test] Attempting to get error message with retry method...
+[Test] Successfully retrieved error message from result: "data not found"
+[Test] Successfully verified that error is displayed for unregistered email

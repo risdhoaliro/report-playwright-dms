@@ -1,0 +1,9 @@
+[Test Suite] Starting Forgot Password Test Suite
+Navigating to login page first
+Found 'Forgot password?' link on login page
+Clicked on 'Forgot password?' link
+Successfully navigated to forgot password page
+Expecting error message for invalid email
+Waiting for error toast to appear...
+Error message from toast: "data not found"
+[Error] Password reset request failed with message: "data not found"

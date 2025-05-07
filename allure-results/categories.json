@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Login Feature",
+    "matchedStatuses": [
+      "passed",
+      "failed",
+      "broken",
+      "skipped"
+    ],
+    "messageRegex": ".*login.*|.*Login.*|.*authentication.*|.*Authentication.*|.*credential.*"
+  },
+  {
+    "name": "Dashboard Feature",
+    "matchedStatuses": [
+      "passed",
+      "failed",
+      "broken",
+      "skipped"
+    ],
+    "messageRegex": ".*dashboard.*|.*Dashboard.*"
+  },
+  {
+    "name": "Driver Management Feature",
+    "matchedStatuses": [
+      "passed",
+      "failed",
+      "broken",
+      "skipped"
+    ],
+    "messageRegex": ".*driver.*management.*|.*Driver.*Management.*"
+  },
+  {
+    "name": "Report Feature",
+    "matchedStatuses": [
+      "passed",
+      "failed",
+      "broken",
+      "skipped"
+    ],
+    "messageRegex": ".*report.*|.*Report.*"
+  },
+  {
+    "name": "Login Failed Tests",
+    "messageRegex": ".*[Ll]ogin.*failed.*",
+    "matchedStatuses": [
+      "failed"
+    ]
+  },
+  {
+    "name": "Validation Tests",
+    "messageRegex": ".*[Vv]alidation.*|.*[Ee]mpty.*field.*",
+    "matchedStatuses": [
+      "failed",
+      "broken",
+      "passed"
+    ]
+  },
+  {
+    "name": "Navigation Errors",
+    "messageRegex": ".*[Nn]avigation.*timeout.*|.*[Rr]edirect.*failed.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Element Errors",
+    "messageRegex": ".*[Ee]lement.*not.*found.*|.*[Ee]lement.*not.*visible.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Timeout Errors",
+    "messageRegex": ".*[Tt]imeout.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Unexpected Errors",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*"
+  },
+  {
+    "name": "Failed Tests",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*"
+  },
+  {
+    "name": "Passed Tests",
+    "matchedStatuses": [
+      "passed"
+    ],
+    "messageRegex": ".*"
+  },
+  {
+    "name": "Skipped Tests",
+    "matchedStatuses": [
+      "skipped"
+    ],
+    "traceRegex": ".*"
+  }
+]
