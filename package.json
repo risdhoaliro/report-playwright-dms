@@ -26,7 +26,10 @@
     "debug": "npx playwright test --debug",
     "install:browsers": "npx playwright install",
     "install:allure": "npm i -g allure-commandline",
-    "codegen": "npx playwright codegen http://localhost:3001/login"
+    "codegen": "npx playwright codegen http://localhost:3001/login",
+    "deploy:vercel": "vercel --prod",
+    "allure:trends": "npm run report:allure:trends",
+    "allure:full": "npm run report:allure:full"
   },
   "keywords": [
     "automation",
