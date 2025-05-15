@@ -1,8 +1,0 @@
-Navigating to login page first
-Found 'Forgot password?' link on login page
-Clicked on 'Forgot password?' link
-Successfully navigated to forgot password page
-Email field is empty: true, value: ""
-Submit button disabled: true
-[Validation] Valid: Button disabled for empty email field
-[Test Suite] Forgot Password Test Suite completed.

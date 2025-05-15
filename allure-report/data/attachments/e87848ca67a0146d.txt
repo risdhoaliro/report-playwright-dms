@@ -1,0 +1,77 @@
+[Test] Error when checking reset password page: ExpectError: Timed out 10000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('//p[normalize-space(text())=\'Forgot Password.\']')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 10000ms
+  - waiting for locator('//p[normalize-space(text())=\'Forgot Password.\']')
+
+    at /Applications/automation-drivermanagement-synapsis/Tests/forgotPassword.test.ts:336:67
+    at /Applications/automation-drivermanagement-synapsis/Tests/forgotPassword.test.ts:331:32
+    at /Applications/automation-drivermanagement-synapsis/Tests/forgotPassword.test.ts:287:9 {
+  matcherResult: {
+    message: '\x1B[31mTimed out 10000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m()\x1B[22m\n' +
+      '\n' +
+      "Locator: locator('//p[normalize-space(text())=\\'Forgot Password.\\']')\n" +
+      'Expected: visible\n' +
+      'Received: <element(s) not found>\n' +
+      'Call log:\n' +
+      '\x1B[2m  - expect.toBeVisible with timeout 10000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for locator('//p[normalize-space(text())=\\'Forgot Password.\\']')\x1B[22m\n",
+    pass: false,
+    actual: '<element(s) not found>',
+    name: 'toBeVisible',
+    expected: 'visible',
+    log: [
+      '  - expect.toBeVisible with timeout 10000ms',
+      "  - waiting for locator('//p[normalize-space(text())=\\'Forgot Password.\\']')"
+    ],
+    timeout: 10000
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@38',
+    category: 'expect',
+    title: 'expect.toBeVisible',
+    params: { expected: [Object] },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: '/Applications/automation-drivermanagement-synapsis/Tests/forgotPassword.test.ts',
+      line: 336,
+      column: 67
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@38'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747300930477,
+    error: {
+      message: 'Error: \x1B[31mTimed out 10000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m()\x1B[22m\n' +
+        '\n' +
+        "Locator: locator('//p[normalize-space(text())=\\'Forgot Password.\\']')\n" +
+        'Expected: visible\n' +
+        'Received: <element(s) not found>\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toBeVisible with timeout 10000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('//p[normalize-space(text())=\\'Forgot Password.\\']')\x1B[22m\n",
+      stack: 'Error: \x1B[31mTimed out 10000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m()\x1B[22m\n' +
+        '\n' +
+        "Locator: locator('//p[normalize-space(text())=\\'Forgot Password.\\']')\n" +
+        'Expected: visible\n' +
+        'Received: <element(s) not found>\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toBeVisible with timeout 10000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('//p[normalize-space(text())=\\'Forgot Password.\\']')\x1B[22m\n" +
+        '\n' +
+        '    at /Applications/automation-drivermanagement-synapsis/Tests/forgotPassword.test.ts:336:67\n' +
+        '    at /Applications/automation-drivermanagement-synapsis/Tests/forgotPassword.test.ts:331:32\n' +
+        '    at /Applications/automation-drivermanagement-synapsis/Tests/forgotPassword.test.ts:287:9',
+      cause: undefined
+    }
+  }
+}

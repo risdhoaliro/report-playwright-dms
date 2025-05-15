@@ -1,0 +1,19 @@
+[Setup] Memulai setup login SuperAdmin...
+[Setup] Login sebagai superadmin dengan user: superadminqa
+[Login] Mencoba login dengan username: superadminqa, password: ******
+[Login] Mengklik tombol login...
+[Login] Menunggu toast success atau redirect ke dashboard...
+[Login] Berhasil redirect ke dashboard
+[DriverMonitoring] Navigasi ke menu Driver Monitoring...
+[DriverMonitoring] Berhasil navigasi ke Driver Monitoring dan URL sesuai dashboard.
+[DriverMonitoring] Membuka filter...
+[DriverMonitoring] Filter terbuka.
+[DriverMonitoring] Dropdown Kategori dibuka.
+[DriverMonitoring] Jumlah Kategori (button) yang tersedia: 9
+[DriverMonitoring] Kategori button ke-3 dipilih.
+[DriverMonitoring] Dropdown Device index 1 dibuka.
+[DriverMonitoring] Jumlah Device index 1 (button) yang tersedia: 2
+[DriverMonitoring] Device index 1 button ke-1 dipilih.
+[DriverMonitoring] Dropdown Camera Type dibuka.
+[DriverMonitoring] Jumlah Camera Type (button) yang tersedia: 9
+[DriverMonitoring] Camera Type button ke-6 dipilih.

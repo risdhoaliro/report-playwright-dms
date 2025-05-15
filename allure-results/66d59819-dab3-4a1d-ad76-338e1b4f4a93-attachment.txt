@@ -1,0 +1,7 @@
+[Setup] Memulai setup untuk test login...
+[Setup] Halaman login siap untuk testing
+[Test Field Kosong] Menguji validasi untuk field username kosong
+[Validasi Form] Tidak ada pesan validasi yang ditampilkan untuk username
+[Validasi] Memeriksa validasi untuk field username kosong
+[Validasi Form] Tidak ada pesan validasi yang ditampilkan untuk username
+[Validation] Empty username field successfully validated

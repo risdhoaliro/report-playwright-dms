@@ -1,8 +1,0 @@
-[Setup] Memulai setup untuk test login...
-[Setup] Halaman login siap untuk testing
-[Test Field Kosong] Menguji validasi untuk field password kosong
-[Validasi Form] Tidak ada pesan validasi yang ditampilkan untuk password
-[Validasi] Memeriksa validasi untuk field password kosong
-[Validasi Form] Tidak ada pesan validasi yang ditampilkan untuk password
-[Validation] Empty password field successfully validated
-[Test Suite] Login Test Suite completed.

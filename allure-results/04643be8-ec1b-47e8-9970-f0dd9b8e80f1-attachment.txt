@@ -1,0 +1,7 @@
+Navigating to login page first
+Found 'Forgot password?' link on login page
+Clicked on 'Forgot password?' link
+Successfully navigated to forgot password page
+Testing invalid email format: notavalidemail
+Email: "notavalidemail", Button disabled: false, Validation: "Please include an '@' in the email address. 'notavalidemail' is missing an '@'."
+[Format Validation] Valid: HTML5 validation detected - "Please include an '@' in the email address. 'notavalidemail' is missing an '@'."

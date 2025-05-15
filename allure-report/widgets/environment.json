@@ -1,1 +1,1 @@
-[{"values":["chromium"],"name":"Browser"},{"values":["latest"],"name":"Browser.Version"},{"values":["staging"],"name":"Environment"},{"values":["darwin"],"name":"Platform"},{"values":["v18.19.0"],"name":"Node.Version"},{"values":["URL=https://dev-drivermanagement.synapsis.id"],"name":"Base"},{"values":["Date=2025-05-07T03:04:59.719Z"],"name":"Test"}]
+[{"values":["Playwright"],"name":"framework"},{"values":["staging"],"name":"environment"},{"values":["chromium"],"name":"browser"},{"values":["Desktop"],"name":"device"},{"values":["1.0.0"],"name":"app_version"}]

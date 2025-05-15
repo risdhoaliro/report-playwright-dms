@@ -1,0 +1,1 @@
+Hai Super Admin QA, berikut url untuk mereset password Anda: https://dev-nearon-dms.synapsis.id/reset-password?token=YmYxZWQ2MzNjZTc5OTg4NjZmNTU2ZmYzMmQ5OWY1YWM=
